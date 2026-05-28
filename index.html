@@ -1,0 +1,247 @@
+please build a simple eccomerce website for a worm farm. please use stock photos of worm farms
+
+
+please update with the following details. company name SNP Worm Farm. Location Hilton Pietermaritzburg. Phone number 069 895 5237
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SNP Worm Farm</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+  <!-- Hero -->
+  <section class="relative h-[80vh] flex items-center justify-center text-white">
+    <img 
+      src="https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1600&q=80"
+      alt="Worm farm"
+      class="absolute inset-0 w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <div class="relative z-10 text-center px-6">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6">
+        SNP Worm Farm
+      </h1>
+
+      <p class="text-xl md:text-2xl mb-4 max-w-2xl mx-auto">
+        Sustainable composting solutions powered by nature.
+      </p>
+
+      <p class="text-lg md:text-xl mb-8">
+        Hilton, Pietermaritzburg
+      </p>
+
+      <a href="#products" class="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-full text-lg font-semibold transition">
+        Shop Now
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-20 px-6 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-4xl font-bold mb-6">Why Worm Farming?</h2>
+
+        <p class="text-lg leading-relaxed mb-4">
+          Turn food scraps into nutrient-rich compost naturally. SNP Worm Farm helps households and gardeners reduce waste while creating healthy soil for plants.
+        </p>
+
+        <p class="text-lg leading-relaxed">
+          Easy to maintain, odor-free, and perfect for eco-conscious homes and gardens.
+        </p>
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&q=80"
+        alt="Compost and soil"
+        class="rounded-3xl shadow-2xl"
+      />
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="py-20 bg-white px-6">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-16">
+        <h2 class="text-5xl font-bold mb-4">Featured Products</h2>
+
+        <p class="text-lg text-stone-600">
+          Everything you need to start composting naturally.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <!-- Product 1 -->
+        <div class="bg-stone-50 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=1200&q=80"
+            alt="Starter worm farm"
+            class="h-64 w-full object-cover"
+          />
+
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3">Starter Worm Farm</h3>
+
+            <p class="text-stone-600 mb-6">
+              Perfect for beginners and small households.
+            </p>
+
+            <div class="flex items-center justify-between">
+              <span class="text-2xl font-bold">R1 499</span>
+
+              <button class="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-full">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="bg-stone-50 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80"
+            alt="Premium worm farm"
+            class="h-64 w-full object-cover"
+          />
+
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3">Premium Worm Tower</h3>
+
+            <p class="text-stone-600 mb-6">
+              Multi-layer composting system for larger gardens.
+            </p>
+
+            <div class="flex items-center justify-between">
+              <span class="text-2xl font-bold">R2 499</span>
+
+              <button class="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-full">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="bg-stone-50 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=80"
+            alt="Compost worms"
+            class="h-64 w-full object-cover"
+          />
+
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3">Live Compost Worms</h3>
+
+            <p class="text-stone-600 mb-6">
+              Healthy red wigglers ready to power your compost system.
+            </p>
+
+            <div class="flex items-center justify-between">
+              <span class="text-2xl font-bold">R399</span>
+
+              <button class="bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-full">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+
+      <h2 class="text-4xl font-bold mb-12">
+        What Our Customers Say
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="bg-white p-8 rounded-3xl shadow-lg">
+          <p class="mb-6 italic">
+            “Our kitchen waste dropped dramatically after starting worm composting.”
+          </p>
+
+          <h4 class="font-bold">Sarah M.</h4>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow-lg">
+          <p class="mb-6 italic">
+            “Easy setup and the compost quality is incredible for my vegetable garden.”
+          </p>
+
+          <h4 class="font-bold">James T.</h4>
+        </div>
+
+        <div class="bg-white p-8 rounded-3xl shadow-lg">
+          <p class="mb-6 italic">
+            “Fantastic products and excellent customer service.”
+          </p>
+
+          <h4 class="font-bold">Nina R.</h4>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-green-700 text-white py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+
+      <h2 class="text-4xl font-bold mb-6">
+        Contact SNP Worm Farm
+      </h2>
+
+      <p class="text-xl mb-4">
+        Hilton, Pietermaritzburg
+      </p>
+
+      <p class="text-2xl font-semibold mb-8">
+        📞 069 895 5237
+      </p>
+
+      <p class="text-lg">
+        Reach out today for worm farming products, composting advice, and sustainable gardening solutions.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-stone-900 text-stone-300 py-10 px-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+
+      <div>
+        <h3 class="text-2xl font-bold text-white">
+          SNP Worm Farm
+        </h3>
+      </div>
+
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-white">Shop</a>
+        <a href="#" class="hover:text-white">About</a>
+        <a href="#" class="hover:text-white">Contact</a>
+      </div>
+
+      <div class="text-sm">
+        © 2026 SNP Worm Farm
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
